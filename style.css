@@ -1,0 +1,24 @@
+
+
+.left {
+    position: static;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    height: 100vh;
+    width: 10vw;
+    color: white;
+    text-align: center;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #10062c;
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
