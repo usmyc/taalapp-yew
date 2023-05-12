@@ -15,9 +15,9 @@ pub fn nav(NavProps { esra }: &NavProps) -> Html {
     html! {
        <div>
                 <div class="nav">
-                <p>{&esra.name}</p>
-                  <p> {&esra.age} </p>
-                 </div>
+                    <p>{&esra.name}</p>
+                    <p> {&esra.age} </p>
+                </div>
 
         </div>
     }

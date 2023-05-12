@@ -6,13 +6,11 @@ use yew::prelude::*;
 #[function_component(App)]
 fn app() -> Html {
     let esra = People {
-        name: "Esra".to_string(),
+        name: "Zelda".to_string(),
         age: 20,
     };
 
     html! {
-
-
         <div>
         <navbar::Nav esra={esra} />
         <leftbar::Leftbar />
