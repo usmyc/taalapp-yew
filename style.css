@@ -1,29 +1,40 @@
 body{
     background-color: #010409;
+    margin: 0;
+    padding: 0;
 }
 
 .nav{
-    position: fixed;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
     top: 0;
     left: 0;
     background-color: #161B22;
     height: 10vh;
-    width: 100vw;
-    text-align: center;
+    width: 100%;
     color: white;
-    margin-bottom: 1rem;
+    text-align: center;
+    
 }
 
 
 .left {
-    position: fixed;
+    position: absolute;
     top: 10vh;
     left: 0;
     background-color: #0D1117;
-    height: 100vh;
-    width: 10vw;
+    height: 90vh;
+     width: 10%;
     color: white;
     text-align: center;
-
 }
 
+.usr-img{
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    right: 1rem;  
+}

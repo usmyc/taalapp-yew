@@ -13,12 +13,9 @@ pub struct NavProps {
 #[function_component(Nav)]
 pub fn nav(NavProps { esra }: &NavProps) -> Html {
     html! {
-       <div>
-                <div class="nav">
-                    <p>{&esra.name}</p>
-                    <p> {&esra.age} </p>
-                </div>
-
+       <div class="nav">
+               <p>{"Osman"}</p>
+                  <img  style="display: none;" class="usr-img" src="/assets/userimage.png" alt="userimage" />
         </div>
     }
 }
