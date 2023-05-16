@@ -1,20 +1,8 @@
 use yew::prelude::*;
-struct Menu {
-    profil: String,
-    settings: String,
-    subscription: String,
-    logout: String,
-    faq: String,
-}
+mod usermenu;
+
 #[function_component(Nav)]
 pub fn nav() -> Html {
-    let menu = Menu {
-        profil: "Profil".to_string(),
-        settings: "Settings".to_string(),
-        subscription: "Subscription".to_string(),
-        logout: "Logout".to_string(),
-        faq: "FAQ".to_string(),
-    };
     // Create a state variable with the initial value of `false`
 
     let visible = use_state(|| false);
@@ -39,13 +27,7 @@ pub fn nav() -> Html {
                <p>{"Nav"}</p>
                   <img class="usr-img" src="/assets/userimage.png" alt="userimage" onclick={onclick} />
                   <div class={class}>
-                    <p>{"User Name"}</p>
-                    <hr class="line"/>
-                    <p>{menu.profil}</p>
-                    <p>{menu.settings}</p>
-                    <p>{menu.subscription}</p>
-                    <p>{menu.logout}</p>
-                    <p>{menu.faq}</p>
+                        <usermenu::Usermenu />
                   </div>
         </div>
     }
