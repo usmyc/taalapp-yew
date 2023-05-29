@@ -45,8 +45,8 @@ body{
 
 .usr-img{
     position: fixed;
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     margin-top: 1rem;
     right: 1rem;
@@ -113,4 +113,13 @@ body{
     cursor: pointer;
     border: 1px solid #30363D;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(5deg) brightness(102%) contrast(105%);
+}
+
+.ahmet{
+    color: white;
+}
+
+.event{
+    border: 2px solid white;
+    color: white
 }
