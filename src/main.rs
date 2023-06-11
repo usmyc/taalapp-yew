@@ -2,7 +2,6 @@ mod card;
 mod leftbar;
 mod navbar;
 use yew::prelude::*;
-
 #[function_component(App)]
 fn app() -> Html {
     let card_list = use_state(|| 0);
@@ -15,9 +14,8 @@ fn app() -> Html {
         <div>
         <navbar::Nav />
         <div class="container">
-              <div class="hero">
+            <div class="hero">
                 <h1>{"Learn with AI"}</h1>
-
             </div>
             <img onclick={onclick} class="main-plus" src="/assets/PLUS.svg" alt="plus"/>
 
