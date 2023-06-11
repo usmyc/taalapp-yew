@@ -10,3 +10,4 @@ yew = {version = "0.20", features=["csr"]}
 gloo = "0.8.0"
 wasm-bindgen = "0.2"
 web-sys = { version = "0.3", features = ["HtmlInputElement"] }
+reqwest = "0.11.18"

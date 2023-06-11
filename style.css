@@ -117,8 +117,11 @@ body{
     display: flex;
     width: 800px;
     height: 200px;    
-    background-color: aqua;
+    background-color: #161B22;
+    border-radius: 10px;
     align-self: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .cards {
