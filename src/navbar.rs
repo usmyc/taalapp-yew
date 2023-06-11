@@ -17,7 +17,7 @@ pub fn nav() -> Html {
     };
 
     // Clone the state value to use it
-    let class = if *visible.clone() {
+    let class = if *visible {
         "profile-menu visible"
     } else {
         "profile-menu"
